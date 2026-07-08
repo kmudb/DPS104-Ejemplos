@@ -1,0 +1,122 @@
+.btn-votar{
+  width:100%;
+
+  border:none;
+
+  padding:12px;
+
+  border-radius:10px;
+
+  background:#2563eb;
+
+  color:white;
+
+  font-size:16px;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.btn-votar:hover{
+  background:#1d4ed8;
+
+  transform:scale(1.03);
+}
+
+.btn-votar:active{
+    transform:scale(.95);
+}
+button{
+    width:100%;
+    padding:12px;
+    border-radius:12px;
+    border:none;
+    font-size:17px;
+    font-weight:bold;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    transition:.25s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:scale(1.02);
+}
+
+.card{
+  width: 230px;
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.12);
+
+  transition:
+    transform .3s ease,
+    box-shadow .3s ease;
+
+  animation: showCard .5s ease;
+}
+
+.card:hover{
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 15px 35px rgba(37,99,235,.25);
+}
+
+img{
+
+  width: 90px;
+
+  height: 90px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 4px solid #2563eb;
+
+  margin-bottom: 15px;
+}
+.candidate-name {
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  color:#111827;
+
+  margin-bottom:5px;
+
+}
+.votes {
+
+  font-size:16px;
+
+  color:#4b5563;
+
+  margin-bottom:15px;
+
+}
+.progress{
+    height:10px;
+    background:#e5e7eb;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.fill{
+    height:100%;
+    background:#2563eb;
+    border-radius:20px;
+}
